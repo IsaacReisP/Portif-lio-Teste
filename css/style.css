@@ -588,18 +588,17 @@ footer .redes-sociais a:hover {
 
 @media (max-width: 700px){
    .hero-txt{
-      width: 500px;
+      width: 450px;
       flex-wrap: wrap;
    }
 
    .hero-txt h1{
-      font-size: 30px;
+      font-size: 28px;
    }
 
    .hero-txt p{
-      font-size: 18px;
+      font-size: 16px;
       width: 450px;
-      margin-left: 25px;
       margin-bottom: 30px;
    }
 
@@ -625,8 +624,12 @@ footer .redes-sociais a:hover {
 
 @media (max-width: 834px){
    .linguagens{
-      width: 550px;
+      width: 490px;
       flex-wrap: wrap;
+   }
+
+   .linguagens img{
+      scale: 0.90;
    }
 }
 
@@ -652,7 +655,7 @@ footer .redes-sociais a:hover {
 
 @media (max-width: 550px){
    .sobremim{
-      width: 400px;
+      width: 350px;
    }
 }
 
@@ -693,15 +696,15 @@ footer .redes-sociais a:hover {
 
 @media (max-width: 510px){
    .projeto{
-      width: 400px;
+      width: 370px;
    }
 
    .projeto figure img{
-      width: 350px;
+      width: 335px;
    }
 
    .projeto-txt p{
-      margin-bottom: 25px;
+      margin-bottom: 45px;
    }
 }
 
@@ -720,7 +723,7 @@ footer .redes-sociais a:hover {
 
 @media (max-width: 530px){
    form input, textarea{
-      width: 400px;
+      width: 370px;
    }
 }
 
@@ -731,7 +734,7 @@ footer .redes-sociais a:hover {
    }
 
    footer nav{
-      width: 500px;
+      width: 470px;
       flex-wrap: wrap;
    }
 
