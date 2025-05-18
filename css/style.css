@@ -629,7 +629,7 @@ footer .redes-sociais a:hover {
    }
 
    .linguagens img{
-      scale: 0.90;
+      scale: 0.85;
    }
 }
 
@@ -696,7 +696,7 @@ footer .redes-sociais a:hover {
 
 @media (max-width: 510px){
    .projeto{
-      width: 370px;
+      width: 355px;
    }
 
    .projeto figure img{
@@ -723,7 +723,7 @@ footer .redes-sociais a:hover {
 
 @media (max-width: 530px){
    form input, textarea{
-      width: 370px;
+      width: 350px;
    }
 }
 
