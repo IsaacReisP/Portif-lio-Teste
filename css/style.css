@@ -80,7 +80,7 @@ header h2 {
 
 #hero {
    height: 500px;
-   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(assets/1yxsh7cbkux41.jpg);
+   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(../assets/1yxsh7cbkux41.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -252,7 +252,7 @@ h4 {
    color: var(--c02);
    height: 500px;
    width: 100%;
-   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(assets/360_F_796929718_2p05YFfM6Z7v7fN0h6dIRGveuhw9lnBz.jpg);
+   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(../assets/360_F_796929718_2p05YFfM6Z7v7fN0h6dIRGveuhw9lnBz.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
