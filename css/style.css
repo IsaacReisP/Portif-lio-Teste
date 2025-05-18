@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-:root{
+:root {
    --c01: #000;
    --c02: #fff;
    --c03: orange;
@@ -15,18 +15,18 @@
 }
 
 
-*{
+* {
    font-family: "Raleway", sans-serif;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 
-body{
+body {
    background-color: var(--c06);
 }
 
-header{
+header {
    height: 70px;
    background-color: var(--c06);
 
@@ -36,49 +36,49 @@ header{
    padding: 20px;
 }
 
-header nav{
+header nav {
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
 
-header li{
+header li {
    list-style: none;
    padding: 15px;
 }
 
-header a{
+header a {
    text-decoration: none;
    color: var(--c03);
    transition: 0.3s ease-in-out;
    font-size: 17px;
 }
 
-.items a:hover{
+.items a:hover {
    color: var(--c02);
 }
 
-.items ul{
+.items ul {
    display: flex;
    align-items: center;
 }
 
-.btn-welcome{
+.btn-welcome {
    color: var(--c02);
    padding: 8px 18px;
    border-radius: 10px;
 }
 
-header strong{
+header strong {
    color: var(--c04);
 }
 
-header h2{
+header h2 {
    color: var(--c02);
    margin-left: 20px;
 }
 
-#hero{
+#hero {
    height: 500px;
    background: linear-gradient(rgba(0, 0, 0, 0.822)), url(../assets/1yxsh7cbkux41.jpg);
    background-repeat: no-repeat;
@@ -90,7 +90,7 @@ header h2{
    padding: 30px;
 }
 
-.isaac-img figure img{
+.isaac-img figure img {
    width: 300px;
    border-radius: 55% 95% 75% 95%;
    border: solid 3px var(--c03);
@@ -98,29 +98,30 @@ header h2{
    background: linear-gradient(45deg, orange);
 }
 
-.hero-txt{
+.hero-txt {
    width: 555px;
    margin-left: 65px;
 }
 
-.hero-txt h1{
+.hero-txt h1 {
    font-size: 44px;
 }
 
-.hero-txt p{
+.hero-txt p {
    margin-bottom: 25px;
    color: var(--c02);
 }
 
-.hero-txt h1, h4{
+.hero-txt h1,
+h4 {
    color: var(--c02);
 }
 
-.hero-txt strong{
+.hero-txt strong {
    color: var(--c03);
 }
 
-.btn-hero{
+.btn-hero {
    text-decoration: none;
    background-color: var(--c03);
    color: var(--c02);
@@ -128,33 +129,33 @@ header h2{
    border-radius: 1px;
 }
 
-#sobremim h1{
+#sobremim h1 {
    color: var(--c02);
    font-size: 28px;
 }
 
-#sobremim strong{
+#sobremim strong {
    color: var(--c03);
 }
 
-#sobremim{
+#sobremim {
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
 }
 
-.sobremim{
+.sobremim {
    color: var(--c02);
    width: 1161px;
 }
 
-.sobremim p{
+.sobremim p {
    letter-spacing: 1px;
    line-height: 25px;
 }
 
-.sobremim hr{
+.sobremim hr {
    width: 100px;
    border: solid 2px var(--c03);
    border-radius: 2px;
@@ -162,7 +163,7 @@ header h2{
    margin-bottom: 10px;
 }
 
-#habilidades{
+#habilidades {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -170,7 +171,7 @@ header h2{
    color: var(--c03);
 }
 
-.linguagens{
+.linguagens {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -181,26 +182,26 @@ header h2{
    gap: 30px;
 }
 
-.linguagens img{
+.linguagens img {
    width: 80px;
 }
 
-#projetos{
+#projetos {
    display: flex;
    align-items: center;
    flex-direction: column;
 }
 
-.projetos h1{
+.projetos h1 {
    color: var(--c02);
    font-size: 28px;
 }
 
-.projetos strong{
+.projetos strong {
    color: var(--c03);
 }
 
-.projeto{
+.projeto {
    width: 1161px;
    display: flex;
    align-items: center;
@@ -212,37 +213,37 @@ header h2{
    transform: translateY(20px);
 }
 
-.projeto.animateum{
-  animation: fadeInUp 0.5s ease-in-out forwards;
+.projeto.animateum {
+   animation: fadeInUp 0.5s ease-in-out forwards;
 }
 
-.projeto figure img{
+.projeto figure img {
    width: 600px;
    box-shadow: 0 3px 23px;
 }
 
-.projeto{
+.projeto {
    background-color: var(--c05);
    height: 350px;
 }
 
-.projeto-txt{
+.projeto-txt {
    padding: 15px;
    color: var(--c02);
 }
 
-.projeto-txt p{
+.projeto-txt p {
    height: 125px;
 }
 
-.btn-projeto{
+.btn-projeto {
    text-decoration: none;
    color: var(--c02);
    background-color: var(--c03);
    padding: 10px 25px;
 }
 
-#contato{
+#contato {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -256,11 +257,11 @@ header h2{
    background-attachment: fixed;
 }
 
-#contato strong{
+#contato strong {
    color: var(--c03);
 }
 
-.contato-cont{
+.contato-cont {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -272,14 +273,14 @@ header h2{
 }
 
 .animatedois {
-  animation: fadeInUp 0.4s ease-in-out forwards;
+   animation: fadeInUp 0.4s ease-in-out forwards;
 }
 
-.contato-cont h2{
+.contato-cont h2 {
    text-align: center;
 }
 
-form{
+form {
    height: 100%;
    display: flex;
    align-items: center;
@@ -289,30 +290,30 @@ form{
    margin-bottom: 10px;
 }
 
-label{
+label {
    margin-bottom: 5px;
    margin-top: 5px;
 }
 
-form div{
+form div {
    display: flex;
    flex-direction: column;
    margin-top: 5px;
    margin-bottom: 5px;
 }
 
-input{
+input {
    width: 700px;
    padding: 10px 0;
    box-shadow: 0 0 5px black;
    border: 0;
 }
 
-::placeholder{
+::placeholder {
    padding: 10px;
 }
 
-textarea{
+textarea {
    width: 700px;
    height: 100px;
    padding: 10px;
@@ -320,7 +321,7 @@ textarea{
    box-shadow: 0 0 15px black;
 }
 
-footer{
+footer {
    background-color: var(--c07);
    display: flex;
    align-items: center;
@@ -332,34 +333,34 @@ footer{
    line-height: 25px;
 }
 
-footer nav{
+footer nav {
    width: 100%;
    display: flex;
    align-items: center;
    justify-content: space-around;
 }
 
-footer ul{
+footer ul {
    display: flex;
    gap: 30px;
 }
 
-footer li{
+footer li {
    list-style: none;
 }
 
-footer a{
+footer a {
    text-decoration: none;
    color: var(--c02);
    transition: all 0.5s ease-in-out;
 }
 
-ul a:hover{
+ul a:hover {
    color: var(--c04);
    text-decoration: underline;
 }
 
-.foot-topico{
+.foot-topico {
    margin-bottom: 10px;
    color: var(--c03);
 }
@@ -393,7 +394,7 @@ footer .redes-sociais a:hover {
    box-shadow: 0 0 12px rgba(255, 165, 0, 0.6);
 }
 
-.btn-form{
+.btn-form {
    border: 0;
    background-color: var(--c03);
    color: var(--c02);
@@ -403,140 +404,338 @@ footer .redes-sociais a:hover {
 }
 
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+   from {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
 
 
 
 @keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+   from {
+      opacity: 0;
+      transform: translateX(-50px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateX(0);
+   }
 }
 
 @keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+   from {
+      opacity: 0;
+      transform: translateX(50px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateX(0);
+   }
 }
 
-.projeto1{
+.projeto1 {
    transition: all 0.2s ease-in-out;
 }
 
-.projeto2{
+.projeto2 {
    transition: all 0.2s ease-in-out;
 }
 
-.projeto3{
+.projeto3 {
    transition: all 0.2s ease-in-out;
 }
 
-.projeto1:hover{
+.projeto1:hover {
    transform: scale(0.9) rotate(5deg);
 }
 
-.projeto2:hover{
+.projeto2:hover {
    transform: scale(0.9) rotate(-5deg);
 }
 
-.projeto3:hover{
+.projeto3:hover {
    transform: scale(0.9) rotate(5deg);
 }
 
 .hero-txt {
-  animation: fadeInLeft 1s ease forwards;
-  opacity: 0;
+   animation: fadeInLeft 1s ease forwards;
+   opacity: 0;
 }
 
 
 .isaac-img {
-  animation: fadeInRight 1.2s ease forwards;
-  opacity: 0;
+   animation: fadeInRight 1.2s ease forwards;
+   opacity: 0;
 }
 
-.eu-img{
+.eu-img {
    transition: all 0.5s ease-in-out;
 }
 
-.eu-img:hover{
+.eu-img:hover {
    transform: scale(0.9);
 }
 
 
 .linguagens img {
-  transition: transform 0.3s ease;
+   transition: transform 0.3s ease;
 }
 
 .linguagens img:hover {
-  transform: scale(1.2);
+   transform: scale(1.2);
 }
 
 
-.btn-welcome{
-  transition: all 0.3s ease;
-  transform: scale(1);
-}
-
-.btn-hero{
+.btn-welcome {
    transition: all 0.3s ease;
-  transform: scale(1);
-}
-.btn-projeto{
-   transition: all 0.3s ease;
-  transform: scale(1);
+   transform: scale(1);
 }
 
-.btn-form{
-  transition: all 0.3s ease;
-  transform: scale(1);
+.btn-hero {
+   transition: all 0.3s ease;
+   transform: scale(1);
 }
+
+.btn-projeto {
+   transition: all 0.3s ease;
+   transform: scale(1);
+}
+
+.btn-form {
+   transition: all 0.3s ease;
+   transform: scale(1);
+}
+
 .btn-form:hover {
-  padding: 13px 28px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+   padding: 13px 28px;
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.btn-projeto:hover{
-  padding: 13px 28px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+.btn-projeto:hover {
+   padding: 13px 28px;
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.btn-hero:hover{
-  padding: 13px 28px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+.btn-hero:hover {
+   padding: 13px 28px;
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.btn-form:hover{
+.btn-form:hover {
    transform: scale(1.05);
 }
 
 .projeto:nth-child(1) {
-  animation-delay: 0.3s;
-}
-.projeto:nth-child(2) {
-  animation-delay: 0.6s;
-}
-.projeto:nth-child(3) {
-  animation-delay: 0.9s;
+   animation-delay: 0.3s;
 }
 
-@media (max-width:800px) {
-   
+.projeto:nth-child(2) {
+   animation-delay: 0.6s;
+}
+
+.projeto:nth-child(3) {
+   animation-delay: 0.9s;
+}
+
+/*Responsividade do Cabeçalho*/
+@media (max-width: 624px){
+   header{
+      height: auto;
+      flex-direction: column;
+   }
+
+   header nav{
+      margin-top: 10px;
+   }
+
+   header h2{
+      margin-right: 23px;
+   }
+}
+
+/*Responsividade do Hero*/
+@media (max-width:1058px) {
+
+   .isaac-img{
+      margin-left: 85px;
+   }
+
+   #hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 40px;
+   }
+
+   .hero-txt{
+      width: 700px;
+      text-align: center;
+      margin-top: 30px;
+      margin-right: 55px;
+      flex-wrap: wrap;
+   }
+}
+
+@media (max-width: 700px){
+   .hero-txt{
+      width: 500px;
+      flex-wrap: wrap;
+   }
+
+   .hero-txt h1{
+      font-size: 30px;
+   }
+
+   .hero-txt p{
+      font-size: 18px;
+      width: 450px;
+      margin-left: 25px;
+      margin-bottom: 30px;
+   }
+
+   .btn-hero a{
+      padding: 12px 30px;
+      font-size: 18px;
+      transition: all 0.3s ease-in-out
+   }
+}
+/*Responsividade do .linguagens*/
+@media (max-width: 1180px){
+   .linguagens{
+      width: 1000px;
+   }
+}
+
+@media (max-width: 1036px){
+   .linguagens{
+      width: 800px;
+      padding: 40px;
+   }
+}
+
+@media (max-width: 834px){
+   .linguagens{
+      width: 550px;
+      flex-wrap: wrap;
+   }
+}
+
+/*Responsividade do .sobremim*/
+@media (max-width: 1180px){
+   .sobremim{
+      width: 1000px;
+   }
+}
+
+@media (max-width: 1036px){
+   .sobremim{
+      width: 800px;
+   }
+}
+
+@media (max-width: 834px){
+   .sobremim{
+      width: 550px;
+      flex-wrap: wrap;
+   }
+}
+
+@media (max-width: 550px){
+   .sobremim{
+      width: 400px;
+   }
+}
+
+/*Responsividade dos .cards de projeto*/
+@media (max-width: 1180px){
+   .projeto{
+      width: 1000px;
+      flex-direction: column;
+      height: auto;
+   }
+
+   .apple{
+      flex-direction: column-reverse;
+   }
+}
+
+@media (max-width: 1036px){
+   .projeto{
+      width: 800px;
+   }
+}
+
+@media (max-width: 834px){
+   .projeto{
+      width: 650px;
+   }
+}
+
+@media (max-width: 650px){
+   .projeto{
+      width: 500px;
+   }
+
+   .projeto figure img{
+      width: 450px;
+   }
+}
+
+@media (max-width: 510px){
+   .projeto{
+      width: 400px;
+   }
+
+   .projeto figure img{
+      width: 350px;
+   }
+
+   .projeto-txt p{
+      margin-bottom: 25px;
+   }
+}
+
+/*Responsividade do Formulário*/
+@media (max-width: 1180px){
+   form input, textarea{
+      width: 650px;
+   }
+}
+
+@media (max-width: 680px){
+   form input, textarea{
+      width: 500px;
+   }
+}
+
+@media (max-width: 530px){
+   form input, textarea{
+      width: 400px;
+   }
+}
+
+/*Responsividade do Rodapé*/
+@media (max-width: 585px){
+   footer{
+      height: auto;
+   }
+
+   footer nav{
+      width: 500px;
+      flex-wrap: wrap;
+   }
+
+   .redes-sociais{
+      margin-top: 10px;
+   }
 }
