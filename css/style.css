@@ -80,7 +80,7 @@ header h2 {
 
 #hero {
    height: 500px;
-   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(../assets/1yxsh7cbkux41.jpg);
+   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(assets/1yxsh7cbkux41.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -88,6 +88,7 @@ header h2 {
    align-items: center;
    justify-content: space-between;
    padding: 30px;
+   width: 100%;
 }
 
 .isaac-img figure img {
@@ -183,7 +184,7 @@ h4 {
 }
 
 .linguagens img {
-   width: 80px;
+   width: 75px;
 }
 
 #projetos {
@@ -251,7 +252,7 @@ h4 {
    color: var(--c02);
    height: 500px;
    width: 100%;
-   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(../assets/360_F_796929718_2p05YFfM6Z7v7fN0h6dIRGveuhw9lnBz.jpg);
+   background: linear-gradient(rgba(0, 0, 0, 0.822)), url(assets/360_F_796929718_2p05YFfM6Z7v7fN0h6dIRGveuhw9lnBz.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -566,6 +567,7 @@ footer .redes-sociais a:hover {
 
    .isaac-img{
       margin-left: 85px;
+      background: linear-gradient(45deg, orange);
    }
 
    #hero {
@@ -575,6 +577,10 @@ footer .redes-sociais a:hover {
       flex-direction: column-reverse;
       height: auto;
       padding: 40px;
+      background: linear-gradient(rgba(0, 0, 0, 0.822)), url(assets/1yxsh7cbkux41.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
    }
 
    .hero-txt{
@@ -710,6 +716,13 @@ footer .redes-sociais a:hover {
 
 /*Responsividade do Formulário*/
 @media (max-width: 1180px){
+   #contato{
+      background: linear-gradient(rgba(0, 0, 0, 0.822)), url(assets/360_F_796929718_2p05YFfM6Z7v7fN0h6dIRGveuhw9lnBz.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+   }
+
    form input, textarea{
       width: 650px;
    }
