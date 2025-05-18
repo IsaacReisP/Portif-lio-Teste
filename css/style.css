@@ -88,7 +88,6 @@ header h2 {
    align-items: center;
    justify-content: space-between;
    padding: 30px;
-   width: 100%;
 }
 
 .isaac-img figure img {
@@ -251,7 +250,6 @@ h4 {
    flex-direction: column;
    color: var(--c02);
    height: 500px;
-   width: 100%;
    background: linear-gradient(rgba(0, 0, 0, 0.822)), url(../assets/360_F_796929718_2p05YFfM6Z7v7fN0h6dIRGveuhw9lnBz.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -567,7 +565,6 @@ footer .redes-sociais a:hover {
 
    .isaac-img{
       margin-left: 85px;
-      background: linear-gradient(45deg, orange);
    }
 
    #hero {
